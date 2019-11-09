@@ -17,8 +17,8 @@ public class Hocvien {
         this.diachi = diachi;
     }
 
-    final public void dongTien(int money){
-        Log.d("BBB",money + "");
+    public void dongTien(int money){
+        Log.d("BBB","Hoc vien " + money + "");
     }
 
     //getter va setter : alt + insert
